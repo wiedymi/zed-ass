@@ -1,0 +1,27 @@
+[Script Info]
+; This is an example ASS subtitle file
+Title: Example ASS Subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,0,2,0,0,0,1
+Style: Main,Arial,16,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Italics,Arial,16,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,-1,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: On Top,Arial,16,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,Opening scene
+Dialogue: 0,0:00:01.00,0:00:05.00,Main,,0,0,0,,Hello, world!
+Dialogue: 0,0:00:05.50,0:00:10.00,Main,,0,0,0,,This is an example subtitle.
+Dialogue: 0,0:00:10.50,0:00:15.00,Italics,Character A,0,0,0,,{\i1}This text is in italics.{\i0}
+Dialogue: 0,0:00:15.50,0:00:20.00,Main,,0,0,0,,You can use {\b1}bold{\b0} and {\c&H0000FF&}colored{\c} text.
+Dialogue: 0,0:00:20.50,0:00:25.00,On Top,,0,0,0,,This appears at the top of the screen.
+Dialogue: 0,0:00:25.50,0:00:30.00,Mainasd,,0,0,0,,{\pos(960,540)}This text is positioned in the center.
+Comment: 0,0:00:30.00,0:00:35.00,Default,,0,0,0,,End of example subtitles

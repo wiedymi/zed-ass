@@ -1,0 +1,15 @@
+id = "ass"
+name = "ASS Subtitle Format"
+description = "Language support for ASS (Advanced SSA) subtitle files"
+version = "1.0.0"
+schema_version = 1
+authors = ["wiedymi <contact@wiedymi.com>"]
+repository = "https://github.com/wiedymi/zed-ass"
+
+[grammars.ass]
+repository = "https://github.com/wiedymi/tree-sitter-ass"
+rev = "main"
+
+[language_servers.ass-lsp]
+name = "ASS Language Server"
+languages = ["ASS"]

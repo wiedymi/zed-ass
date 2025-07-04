@@ -1,0 +1,9 @@
+name = "ASS"
+grammar = "ass"
+path_suffixes = ["ass", "ssa"]
+line_comments = [";"]
+tab_size = 4
+hard_tabs = false
+
+# ASS files sometimes start with script info sections
+first_line_pattern = "^\\s*\\[Script Info\\]"
